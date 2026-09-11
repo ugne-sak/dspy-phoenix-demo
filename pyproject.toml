@@ -1,0 +1,14 @@
+[project]
+name = "dspy-phoenix-demo"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "arize-phoenix>=20.9.0",
+    "arize-phoenix-otel>=0.17.1",
+    "dspy>=3.3.1",
+    "fastapi>=0.141.1",
+    "openinference-instrumentation-dspy>=0.1.45",
+    "opentelemetry-instrumentation-fastapi>=0.65b0",
+    "python-dotenv>=1.2.3",
+    "uvicorn>=0.52.4",
+]
